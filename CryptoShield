@@ -1,0 +1,5 @@
+from PIL import Image
+
+img = Image.open('image.jpg')
+resized_img = img.resize((300, 200))
+resized_img.save('resized_image.jpg')
