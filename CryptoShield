@@ -1,4 +1,4 @@
-from PIL import Image #1
+from PIL import Image #
 
 img = Image.open('image.jpg')
 resized_img = img.resize((300, 200))
